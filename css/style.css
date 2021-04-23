@@ -1,0 +1,38 @@
+.wrapper {
+  min-width: 1040px;
+  margin: 0 auto;
+}
+
+.mr-auto {
+  margin-left: auto !important;
+}
+
+.introduction {
+  background-image: url("../img/introduction_img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-custom {
+  background-color: transparent !important;
+}
+
+.navbar {
+  padding-top: 16px !important;
+  padding-bottom: 0 !important;
+}
+
+.nav-link {
+  font-family: "Roboto", sans-serif !important;
+  letter-spacing: 0.15px;
+  color: #023135 !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+.nav-link:hover {
+  color: #023135 !important;
+}
+
+.logo {
+  max-width: 112px !important;
+}
