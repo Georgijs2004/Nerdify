@@ -1,6 +1,10 @@
 $Roboto:'Roboto',
 sans-serif;
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: $Roboto !important;
 }
@@ -63,7 +67,7 @@ a {
 
     &__col:first-child {
         padding-top: 23px;
-        max-width: 531px;
+        width: 531px;
     }
 
     &__col:last-child {
@@ -100,12 +104,225 @@ a {
     }
 
     &__media {
-        max-width: 460px;
+        width: 460px;
+    }
+}
 
-        img {
-            max-width: 100%;
+//deviding (small) txt
+.deviding {
+    &__txt {
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 40px;
+        font-family: $Roboto;
+        font-size: 10px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #637381;
+    }
+}
+
+//subject choosing
+
+.navigation {
+    padding-top: 20px;
+}
+
+.subject {
+    &__navbar-brand {
+        display: none;
+    }
+
+    &__nav-link {
+        color: #007A5C;
+        font-family: $Roboto;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.15px;
+        padding: 8px 15px;
+        border: 1px solid #007A5C;
+        box-sizing: border-box;
+        border-radius: 24px;
+        margin-left: 4px;
+        margin-right: 4px;
+
+        &:hover {
+            background-color: #007A5C;
+            color: white;
+        }
+    }
+
+    &__nav-item {
+        &:first-child {
+            .subject__nav-link {
+                margin-left: 15px;
+            }
+        }
+
+        &:last-child {
+            .subject__nav-link {
+                margin-right: 15px;
+            }
         }
     }
 }
 
-@import 'media';
+.main_description {
+    margin-top: 33px;
+}
+
+.description {
+    &__txt {
+        padding-top: 80px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__txt-item {
+        font-family: $Roboto;
+        font-size: 32px;
+        line-height: 44px;
+        letter-spacing: 0.2px;
+        color: #023135;
+
+        &:first-child {
+            margin-right: 30px;
+        }
+
+        &:last-child {
+            margin-left: 30px;
+        }
+    }
+
+    &__photo {
+        position: relative;
+        margin-top: 85px;
+        height: 760px;
+        background-image: url('../img/description_photo_phone.png');
+        background-position: center;
+        background-repeat: no-repeat;
+
+        &-block {
+            position: absolute;
+            height: 193px;
+            width: 260px;
+            background-color: #FFFFFF;
+            border: 1px solid #EBF4FF;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 7px rgba(222, 234, 249, 0.59);
+            border-radius: 24px;
+
+            &--1 {
+                top: -20px;
+            }
+
+            &--2 {
+                right: -18px;
+                top: 109px;
+
+            }
+
+            &--3 {
+                left: 20px;
+                bottom: 230px;
+            }
+
+            &-number {
+                width: 36px;
+                height: 36px;
+                margin: 0 auto;
+                margin-top: 16px;
+                background: #32404D;
+                color: white;
+                border-radius: 18px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            &-txt {
+                margin: 0 auto;
+                text-align: center;
+                font-family: $Roboto;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: 0.15px;
+                color: #023135;
+                padding-top: 25px;
+                padding-right: 22px;
+                padding-left: 22px;
+            }
+        }
+
+        &-row {
+            position: absolute;
+
+            &--1 {
+                top: 187px;
+                left: 125px;
+            }
+
+            &--2 {
+                top: 320px;
+                right: 70px;
+            }
+
+            &--3 {
+                bottom: 163px;
+                left: 155px;
+            }
+        }
+    }
+
+    &__bottom-txt {
+        font-family: $Roboto;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.15px;
+        color: #023135;
+        padding-top: 25px;
+    }
+
+    &__cards {
+        padding-top: 40px;
+    }
+
+    &__card {
+        width: 235px;
+
+        &:first-child {
+            margin-right: 90px
+        }
+
+        &:last-child {
+            margin-left: 90px;
+        }
+
+        &-logo {
+            margin: 0 auto;
+
+        }
+
+        &-header {
+            text-align: center;
+            font-family: $Roboto;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 0.15px;
+            color: #023135;
+            padding-top: 20px;
+        }
+
+        &-body {
+            text-align: center;
+            font-family: $Roboto;
+            font-size: 9px;
+            line-height: 24px;
+            letter-spacing: 0.15px;
+            color: #000000;
+            padding-top: 12px;
+        }
+    }
+}
