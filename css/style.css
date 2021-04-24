@@ -1,6 +1,21 @@
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
 .wrapper {
-  min-width: 1040px;
+  max-width: 1040px;
   margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .mr-auto {
@@ -22,7 +37,6 @@
 }
 
 .nav-link {
-  font-family: "Roboto", sans-serif !important;
   letter-spacing: 0.15px;
   color: #023135 !important;
   padding-left: 24px !important;
@@ -34,4 +48,103 @@
 
 .logo {
   max-width: 112px !important;
+}
+
+.introduction {
+  padding-top: 45px;
+}
+.introduction__col:first-child {
+  padding-top: 23px;
+  max-width: 531px;
+}
+.introduction__col:last-child {
+  padding-left: 52px;
+}
+.introduction__main-txt {
+  letter-spacing: 0.31px;
+  font-size: 50px;
+  color: #32404D;
+}
+.introduction__small-txt {
+  padding-top: 21px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #023135;
+}
+.introduction__btn {
+  margin-top: 60px;
+}
+.introduction__btn a {
+  padding: 18px 38px;
+  background-color: #007a5c;
+  color: white !important;
+  border-radius: 30px;
+}
+.introduction__btn a:hover {
+  background-color: #006149;
+}
+.introduction__media {
+  max-width: 460px;
+}
+.introduction__media img {
+  max-width: 100%;
+}
+
+@media (max-width: 990px) {
+  .introduction__col:first-child {
+    padding-left: 35px;
+  }
+  .introduction__col:last-child {
+    padding-left: 10px;
+  }
+  .introduction__main-txt {
+    font-size: 40px;
+  }
+  .introduction__small-txt {
+    font-size: 14px;
+  }
+  .introduction__btn a {
+    border-radius: 20px;
+    padding: 14px 25px;
+  }
+}
+@media (max-width: 900px) {
+  .introduction__col:first-child {
+    padding-left: 25px;
+  }
+  .introduction__col:last-child {
+    padding-left: 10px;
+  }
+  .introduction__main-txt {
+    font-size: 30px;
+  }
+  .introduction__small-txt {
+    font-size: 12px;
+  }
+  .introduction__btn {
+    margin-top: 30px;
+  }
+  .introduction__btn a {
+    border-radius: 20px;
+    padding: 12px 20px;
+  }
+}
+@media (max-width: 750px) {
+  .introduction__media {
+    display: none;
+  }
+  .introduction__inner {
+    padding-bottom: 30px;
+  }
+  .introduction__col:first-child {
+    padding-top: 0px;
+    max-width: 531px;
+    text-align: center;
+  }
+}
+@media (max-width: 390px) {
+  .introduction__main-txt {
+    font-size: 25px;
+  }
 }

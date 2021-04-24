@@ -1,9 +1,25 @@
 $Roboto:'Roboto',
 sans-serif;
 
+body {
+    font-family: $Roboto !important;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+        text-decoration: none;
+        color: black;
+    }
+}
+
 .wrapper {
-    min-width: 1040px;
+    max-width: 1040px;
     margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .mr-auto {
@@ -26,7 +42,6 @@ sans-serif;
 }
 
 .nav-link {
-    font-family: $Roboto !important;
     letter-spacing: 0.15px;
     color: #023135 !important;
 
@@ -41,3 +56,56 @@ sans-serif;
 .logo {
     max-width: 112px !important;
 }
+
+//introduction
+.introduction {
+    padding-top: 45px;
+
+    &__col:first-child {
+        padding-top: 23px;
+        max-width: 531px;
+    }
+
+    &__col:last-child {
+        padding-left: 52px;
+    }
+
+    &__main-txt {
+        letter-spacing: 0.31px;
+        font-size: 50px;
+        color: #32404D;
+    }
+
+    &__small-txt {
+        padding-top: 21px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        color: #023135;
+    }
+
+    &__btn {
+        margin-top: 60px;
+
+        a {
+            padding: 18px 38px;
+            background-color: #007a5c;
+            color: white !important;
+            border-radius: 30px;
+
+            &:hover {
+                background-color: #006149;
+            }
+        }
+    }
+
+    &__media {
+        max-width: 460px;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+@import 'media';

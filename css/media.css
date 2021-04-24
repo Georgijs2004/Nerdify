@@ -1,0 +1,5 @@
+@media (max-width: 990px) {
+  .introduction__col:last-child {
+    padding-left: 10px;
+  }
+}
