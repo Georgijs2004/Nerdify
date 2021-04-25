@@ -1,4 +1,4 @@
-const anchors = document.querySelectorAll('.anchors_nav-bar a[href*="#"]');
+const anchors = document.querySelectorAll('.anchors_nav-bar a');
 const yOffset = -0;
 
 for (anchor of anchors) {
