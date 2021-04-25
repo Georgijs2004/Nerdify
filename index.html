@@ -22,15 +22,15 @@
                         <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav mr-auto">
+                            <ul class="navbar-nav anchors_nav-bar mr-auto">
                                 <li class="subject__nav-item">
-                                    <a class="nav-link" href="#">How it works</a>
+                                    <a class="nav-link" data-redir="#how_it_works" href="#">How it works <span class="d-block mx-auto line"></span></a>
                                 </li>
                                 <li class="subject__nav-item">
-                                    <a class="nav-link" href="#">Benefits</a>
+                                    <a class="nav-link" data-redir="#benefits" href="#">Benefits <span class="d-block mx-auto line"></span></a>
                                 </li>
                                 <li class="subject__nav-item">
-                                    <a class="nav-link" href="#">Pricing</a>
+                                    <a class="nav-link" data-redir="#pricing" href="#">Pricing <span class="d-block mx-auto line"></span></a>
                                 </li>
                             </ul>
                         </div>
@@ -59,107 +59,143 @@
             </header>
         </div>
     </div>
-    <main class="wrapper">
-        <div class="deviding__txt">Our tutors can help with 35+ subjects!</div>
-
-        <section class="navigation">
-            <div class="subject__nav-menu d-flex justify-content-center">
-                <div class="subject__nav-item">
-                  <a href="#" class="subject__nav-link">Mathematics</a>  
-                </div>
-                <div class="subject__nav-item">
-                  <a href="#" class="subject__nav-link">Physics</a>  
-                </div>
-                <div class="subject__nav-item">
-                  <a href="#" class="subject__nav-link">Chemistry</a>  
-                </div>
-                <div class="subject__nav-item">
-                  <a href="#" class="subject__nav-link">Biology</a>  
-                </div>
-                <div class="subject__nav-item">
-                  <a href="#" class="subject__nav-link">Accounting</a>  
-                </div>
-                <div class="subject__nav-item">
-                  <a href="#" class="subject__nav-link">Finance</a>  
-                </div>
-                <div class="subject__nav-item">
-                  <a href="#" class="subject__nav-link">Economics</a>  
-                </div>
-                <div class="subject__nav-item">
-                  <a href="#" class="subject__nav-link">Geography</a>  
-                </div>
-                <div class="subject__nav-item">
-                  <a href="#" class="subject__nav-link">History</a>  
-                </div>
-            </div> 
-        </section>
+    <main>
+        <div class="wrapper">
+            <div id="how_it_works" class="deviding__txt">Our tutors can help with 35+ subjects!</div>
+                <section class="navigation">
+                    <ul class="subject__nav-menu d-flex justify-content-center">
+                        <li class="subject__nav-item">
+                        <a href="#" class="subject__nav-link">Mathematics</a>  
+                        </li>
+                        <li class="subject__nav-item">
+                        <a href="#" class="subject__nav-link">Physics</a>  
+                        </li>
+                        <li class="subject__nav-item">
+                        <a href="#" class="subject__nav-link">Chemistry</a>  
+                        </li>
+                        <li class="subject__nav-item">
+                        <a href="#" class="subject__nav-link">Biology</a>  
+                        </li>
+                        <li class="subject__nav-item">
+                        <a href="#" class="subject__nav-link">Accounting</a>  
+                        </li>
+                        <li class="subject__nav-item">
+                        <a href="#" class="subject__nav-link">Finance</a>  
+                        </li>
+                        <li class="subject__nav-item">
+                        <a href="#" class="subject__nav-link">Economics</a>  
+                        </li>
+                        <li class="subject__nav-item">
+                        <a href="#" class="subject__nav-link">Geography</a>  
+                        </li>
+                        <li class="subject__nav-item">
+                        <a href="#" class="subject__nav-link">History</a>  
+                        </li>
+                    </ul> 
+                </section>
+                
+                <section class="main_description">
+                    <div class="description__txt">
+                        <span class="description__txt-item">As simple as TikTok</span>
+                        <span class="description__txt-item">and cheaper than</span>
+                        <span class="description__txt-item">a tutoring session</span>
+                    </div>
+                    <div class="description__photo">
+                        <div class="description__photo-block--1 description__photo-block">
+                            <div class="description__photo-block-number">1</div>
+                            <div class="description__photo-block-txt">
+                                Send your problem: take a photo, copy & paste instructions or attach files.
+                            </div>
+                        </div>
+                        <div class="description__photo-block--2 description__photo-block">
+                            <div class="description__photo-block-number">2</div>
+                            <div class="description__photo-block-txt">
+                                Get a video with a solution explained in details within an hour!
+                            </div>
+                        </div>
+                        <div class="description__photo-block--3 description__photo-block">
+                            <div class="description__photo-block-number">3</div>
+                            <div class="description__photo-block-txt">
+                                Chat with your tutor for the next 24 hours to clarify any questions.
+                            </div>
+                        </div>
+                        <div class="description__photo-row description__photo-row--1">
+                            <img src="img/row_1.png" alt="#">
+                        </div>
+                        <div class="description__photo-row description__photo-row--2">
+                            <img src="img/row_2.png" alt="#">
+                        </div>
+                        <div class="description__photo-row description__photo-row--3">
+                            <img src="img/row_3.png" alt="#">
+                        </div>
+                    </div>
+                    <div id="benefits" class="description__bottom-txt">Better than anything you’ve tried before</div>
+                    <div class="description__cards d-flex justify-content-center">
+                        <div class="description__card">
+                            <div class="description__card-logo d-flex justify-content-center"><img src="img/faster_card_logo.png" alt="#"></div>
+                            <div class="description__card-header">Faster</div>
+                            <div class="description__card-body">
+                                No need to schedule and wait for live sessions with tutors.
+                            </div>
+                        </div>
+                        <div class="description__card">
+                            <div class="description__card-logo d-flex justify-content-center"><img src="img/cheaper_card_logo.png" alt="#"></div>
+                            <div class="description__card-header">Cheaper</div>
+                            <div class="description__card-body">
+                                No need to pay for the whole hour to understand a small problem.
+                            </div>
+                        </div>
+                        <div class="description__card">
+                            <div class="description__card-logo d-flex justify-content-center"><img src="img/arhand_card_logo.png" alt="#"></div>
+                            <div class="description__card-header">At hand</div>
+                            <div class="description__card-body">
+                                Get back to the video any time and chat with a tutor on the go.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </div>
         
-        <section class="main_description">
-            <div class="description__txt">
-                <span class="description__txt-item">As simple as TikTok</span>
-                <span class="description__txt-item">and cheaper than</span>
-                <span class="description__txt-item">a tutoring session</span>
-            </div>
-            <div class="description__photo">
-                <div class="description__photo-block--1 description__photo-block">
-                    <div class="description__photo-block-number">1</div>
-                    <div class="description__photo-block-txt">
-                        Send your problem: take a photo, copy & paste instructions or attach files.
-                    </div>
-                </div>
-                <div class="description__photo-block--2 description__photo-block">
-                    <div class="description__photo-block-number">2</div>
-                    <div class="description__photo-block-txt">
-                        Get a video with a solution explained in details within an hour!
-                    </div>
-                </div>
-                <div class="description__photo-block--3 description__photo-block">
-                    <div class="description__photo-block-number">3</div>
-                    <div class="description__photo-block-txt">
-                        Chat with your tutor for the next 24 hours to clarify any questions.
-                    </div>
-                </div>
-                <div class="description__photo-row description__photo-row--1">
-                    <img src="img/row_1.png" alt="#">
-                </div>
-                <div class="description__photo-row description__photo-row--2">
-                    <img src="img/row_2.png" alt="#">
-                </div>
-                <div class="description__photo-row description__photo-row--3">
-                    <img src="img/row_3.png" alt="#">
-                </div>
-            </div>
-            <div class="description__bottom-txt">Better than anything you’ve tried before</div>
-            <div class="description__cards d-flex justify-content-center">
-                <div class="description__card">
-                    <div class="description__card-logo d-flex justify-content-center"><img src="img/faster_card_logo.png" alt="#"></div>
-                    <div class="description__card-header">Faster</div>
-                    <div class="description__card-body">
-                        No need to schedule and wait for live sessions with tutors.
-                    </div>
-                </div>
-                <div class="description__card">
-                    <div class="description__card-logo d-flex justify-content-center"><img src="img/cheaper_card_logo.png" alt="#"></div>
-                    <div class="description__card-header">Cheaper</div>
-                    <div class="description__card-body">
-                        No need to pay for the whole hour to understand a small problem.
-                    </div>
-                </div>
-                <div class="description__card">
-                    <div class="description__card-logo d-flex justify-content-center"><img src="img/arhand_card_logo.png" alt="#"></div>
-                    <div class="description__card-header">At hand</div>
-                    <div class="description__card-body">
-                        Get back to the video any time and chat with a tutor on the go.
-                    </div>
-                </div>
-            </div>
-        </section>
         
-        <section>
-
+        <section class="premisions" id="premisions">
+            <div class="premisions__inner" id="test" >
+                <div class="premisions__header">
+                    <div class="premisions__header-line">
+                        <span class="premisions__header-txt">Submit as many problems as you need.</span>
+                    </div>
+                    <div class="premisions__header-line">
+                        <span class="premisions__header-txt">Your tutor will record</span>
+                        <span class="premisions__header-txt">a separate explanation</span>
+                        <span class="premisions__header-txt">for each!</span>
+                    </div>
+                </div>
+                <div class="premisions__body d-flex justify-content-center">
+                    <div class="premisions__body-col">
+                        <div class="premisions__body-1 d-flex justify-content-start align-items-center">
+                            <div class="premisions__body-symbol"><img src="img/premisions_symbol.png" alt=""></div>
+                            <div class="premisions__body-txt">Up to 10-minute long video</div>
+                        </div>
+                        <div class="premisions__body-2 d-flex justify-content-start align-items-center">
+                            <div class="premisions__body-symbol"><img src="img/premisions_symbol.png" alt=""></div>
+                            <div class="premisions__body-txt">Step by step problem solving</div>
+                        </div>
+                    </div>
+                    <div class="premisions__body-col">
+                        <div class="premisions__body-3 d-flex justify-content-start align-items-center">
+                            <div class="premisions__body-symbol"><img src="img/premisions_symbol.png" alt=""></div>
+                            <div class="premisions__body-txt">Done on digital whiteboard</div>
+                        </div>
+                        <div class="premisions__body-4 d-flex justify-content-start align-items-center">
+                            <div class="premisions__body-symbol"><img src="img/premisions_symbol.png" alt=""></div>
+                            <div class="premisions__body-txt">Voice comments from a tutor</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
+    <script src="main.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>

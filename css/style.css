@@ -15,6 +15,11 @@ a:hover {
   color: black;
 }
 
+ul {
+  list-style-type: none !important;
+  padding: 0 !important;
+}
+
 .wrapper {
   max-width: 1040px;
   margin: 0 auto;
@@ -40,6 +45,15 @@ a:hover {
   padding-bottom: 0 !important;
 }
 
+.line {
+  width: 100%;
+  background-color: black;
+  height: 1px;
+  transform: scaleX(0);
+  visibility: hidden;
+  transition: 0.1s;
+}
+
 .nav-link {
   letter-spacing: 0.15px;
   color: #023135 !important;
@@ -48,6 +62,10 @@ a:hover {
 }
 .nav-link:hover {
   color: #023135 !important;
+}
+.nav-link:hover .line {
+  transform: scaleX(1);
+  visibility: visible;
 }
 
 .logo {
@@ -266,4 +284,51 @@ a:hover {
   letter-spacing: 0.15px;
   color: #000000;
   padding-top: 12px;
+}
+
+.premisions {
+  padding-top: 96px;
+}
+.premisions__inner {
+  background-image: url("../img/premision_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 57px;
+  padding-bottom: 525px;
+}
+.premisions__header-txt {
+  text-align: center;
+}
+.premisions__header span {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #023135;
+}
+.premisions__header-line {
+  display: flex;
+  justify-content: center;
+}
+.premisions__header-line:last-child {
+  margin-top: 7px;
+}
+.premisions__header-line:last-child .premisions__header-txt:first-child {
+  padding-right: 30px;
+}
+.premisions__header-line:last-child .premisions__header-txt:last-child {
+  padding-left: 30px;
+}
+.premisions__body {
+  padding-top: 53px;
+}
+.premisions__body-txt {
+  padding-left: 18px;
+}
+.premisions__body-col:first-child {
+  margin-right: 80px;
+}
+.premisions__body-col:last-child {
+  margin-left: 80px;
 }
