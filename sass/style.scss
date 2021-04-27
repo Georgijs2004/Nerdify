@@ -414,3 +414,134 @@ ul {
         }
     }
 }
+
+//information about video and viseo exampel
+.info_about-video {
+    padding-top: 100px;
+
+    &__header {
+
+        margin: 0 auto;
+        text-align: center;
+
+        &--1 {
+            font-family: $Roboto;
+            font-size: 32px;
+            line-height: 44px;
+            letter-spacing: 0.2px;
+            color: #007A5C;
+            margin-right: 30px;
+
+        }
+
+        &--2 {
+            font-family: $Roboto;
+            font-size: 32px;
+            line-height: 44px;
+            letter-spacing: 0.2px;
+            color: #023135;
+            margin-left: 30px;
+        }
+    }
+
+    &__description {
+        padding-top: 40px;
+        text-align: center;
+        font-family: $Roboto;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        color: #909EAB;
+    }
+
+    &__media {
+        padding-top: 50px;
+    }
+
+}
+
+.example-item {
+    position: relative;
+
+    &__header {
+        font-family: $Roboto;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        color: #023135;
+        text-align: center;
+    }
+
+    &__body {
+        padding-top: 20px;
+    }
+
+    &__play_btn {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+//pricin
+.pricing {
+    padding-top: 100px;
+
+    &__inner {
+        background-image: url('../img/pricing_section_bg.png');
+        background-position: center;
+        background-repeat: no-repeats;
+    }
+
+    &__header {
+        text-align: center;
+        padding-top: 45px;
+        font-family: $Roboto;
+        font-size: 40px;
+        line-height: 52px;
+        letter-spacing: 0.25px;
+        color: #023135;
+    }
+
+    &__card {
+
+        padding-top: 33px;
+        padding-bottom: 25px;
+        background-color: white;
+        border: 1px solid #EBF4FF;
+        box-sizing: border-box;
+        box-shadow: 0px 2px 25px rgba(76, 106, 170, 0.22);
+        border-radius: 20px;
+
+        &__header {
+            text-align: center;
+            font-family: $Roboto;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 0.15px;
+            color: #023135;
+        }
+
+        &__body {
+            margin: 0 auto;
+            padding-top: 25px;
+            font-family: $Roboto;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.15px;
+            color: #023135;
+        }
+
+        &__btn {
+            padding-top: 25px;
+            margin: 0 auto;
+
+            button {
+                background-color: #007A5C;
+                border-radius: 24px;
+                margin: 0 auto;
+            }
+        }
+    }
+}

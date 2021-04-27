@@ -332,3 +332,113 @@ ul {
 .premisions__body-col:last-child {
   margin-left: 80px;
 }
+
+.info_about-video {
+  padding-top: 100px;
+}
+.info_about-video__header {
+  margin: 0 auto;
+  text-align: center;
+}
+.info_about-video__header--1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.2px;
+  color: #007A5C;
+  margin-right: 30px;
+}
+.info_about-video__header--2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.2px;
+  color: #023135;
+  margin-left: 30px;
+}
+.info_about-video__description {
+  padding-top: 40px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #909EAB;
+}
+.info_about-video__media {
+  padding-top: 50px;
+}
+
+.example-item {
+  position: relative;
+}
+.example-item__header {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #023135;
+  text-align: center;
+}
+.example-item__body {
+  padding-top: 20px;
+}
+.example-item__play_btn {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pricing {
+  padding-top: 100px;
+}
+.pricing__inner {
+  background-image: url("../img/pricing_section_bg.png");
+  background-position: center;
+  background-repeat: no-repeats;
+}
+.pricing__header {
+  text-align: center;
+  padding-top: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.25px;
+  color: #023135;
+}
+.pricing__card {
+  padding-top: 33px;
+  padding-bottom: 25px;
+  background-color: white;
+  border: 1px solid #EBF4FF;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 25px rgba(76, 106, 170, 0.22);
+  border-radius: 20px;
+}
+.pricing__card__header {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.15px;
+  color: #023135;
+}
+.pricing__card__body {
+  margin: 0 auto;
+  padding-top: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.15px;
+  color: #023135;
+}
+.pricing__card__btn {
+  padding-top: 25px;
+  margin: 0 auto;
+}
+.pricing__card__btn button {
+  background-color: #007A5C;
+  border-radius: 24px;
+  margin: 0 auto;
+}
